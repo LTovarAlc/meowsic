@@ -17,14 +17,15 @@
     font-size: 32px;
     font-family: 'Intern', sans-serif;
     font-weight: bolder;
-    padding: 20px 0px 0px 0px;
+    margin-top: 20px;
 }
 
 .trend-songs__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    padding: 20px;
+    grid-gap: 0px;
+    margin-top: 10px;
+    width: 90%;
 }
 
 @media (max-width: 768px) {

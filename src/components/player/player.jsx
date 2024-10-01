@@ -1,12 +1,13 @@
 import "./player.css"
 import PlayIMG from "../../imgs/tocar.png"
 import NextIMG from "../../imgs/siguiente-pista.png"
+import MeowLogo from "../../imgs/LOGOmeowsic.png"
 
 const Player = () => {
     return(
         <div className="Player">
             <div className="song__details">
-                <div className="song-thumbnail__container"></div>
+                <img src={MeowLogo} alt="MeowsicLogo" className="meowsicLogoPlayer" />
                 <span className="song-name">SONG TITLE</span>
                 <span className="song-artist-name">Artist</span>
             </div>

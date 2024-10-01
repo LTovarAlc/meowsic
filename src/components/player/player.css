@@ -6,6 +6,7 @@
     justify-content: space-evenly;
     align-items: center;
     border-radius: 20px;
+    background-color: #d5d5d5;
 }
 
 .song__details{
@@ -22,11 +23,9 @@
     width: 100%;
 }
 
-.song-thumbnail__container{
+.meowsicLogoPlayer{
     width: 80%;
     height: 60%;
-    background-color: #Ffff;
-    border-radius: 20px;
 }
 
 .song-name{

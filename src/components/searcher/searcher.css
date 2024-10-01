@@ -18,3 +18,10 @@
 .input:active {
   transform: scale(0.99);
 }
+
+.searcher-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

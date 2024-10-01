@@ -1,0 +1,42 @@
+.songCard{
+    background-color: hsl(0, 0%, 75%);
+    height: 170px;
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.song-thumbnail__songCard{
+    width: 80%;
+    height: auto;
+}
+
+.song-details__songCard{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.song-name__songCard{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'intern', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.song-artist__songCard{
+    width: 100%;
+    font-size: 15px;
+    font-family: 'intern', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    font-style: italic;
+}

@@ -3,6 +3,7 @@ import "./dashboard.css";
 import meowsic from "../../imgs/meowsic.png"
 import Searcher from "../searcher/searcher";
 import Player from "../player/player";
+import Feed from "../feed/feed";
 
 const Dashboard = () => {
   return (
@@ -13,7 +14,7 @@ const Dashboard = () => {
       <div class="player__container"><Player/></div>
       <div class="searcher__container"><Searcher/></div>
       <div class="history__container">history</div>
-      <div class="principal__container">principal</div>
+      <div class="feed__container"><Feed/></div>
     </div>
   );
 };

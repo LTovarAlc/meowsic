@@ -1,14 +1,10 @@
-
-.feed::-webkit-scrollbar{
-    display: none;
-}
-
 .trends{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    margin: 20px 0px;
 }
 
 .trends h2{

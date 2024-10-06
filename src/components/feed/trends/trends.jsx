@@ -22,8 +22,6 @@ const Trends = () => {
         fetchTrendingSongs();
     }, []);
 
-    const songCards = Array.from({length: 8});
-
     return (
         <section className="trends-container">
           <div className="trends">

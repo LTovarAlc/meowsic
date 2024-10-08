@@ -1,0 +1,22 @@
+.playButton {
+    position: absolute;
+    bottom: 75px; 
+    right: 20px;  
+    background-color: #ff5757;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1; 
+    height: 40px;
+    width: 40px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: scale(1);
+  }
+  
+  .playButton-img {
+    width: 15px; 
+    height: 15px;
+    filter: invert(100%);
+  }
+  

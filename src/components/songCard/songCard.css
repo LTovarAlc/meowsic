@@ -10,6 +10,15 @@
     transition: background .3s ease;
 }
 
+.songCard {
+    position: relative;
+}
+
+.songCard:hover .playButton{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
 .songCard:hover{
     background-color: #bfbfbf;
 }

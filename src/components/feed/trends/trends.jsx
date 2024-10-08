@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./trends.css"
-import SongCard from "../songCard/songCard";
+import SongCard from "../../songCard/songCard";
 import { getSpotifyToken, getTrendingTracks } from "../../../spotifyService";
 
 const Trends = () => {

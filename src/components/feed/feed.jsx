@@ -1,12 +1,12 @@
-import "./feed.css"
-import Trends from "./trends/trends"
+import "./feed.css";
+import Trends from "./trends/trends";
 
-const Feed = () => {
-    return(
-        <section className="feed">
-            <Trends/>
-        </section>
-    )
-}
+const Feed = ({ setSelectedSong }) => {
+  return (
+    <section className="feed">
+      <Trends setSelectedSong={setSelectedSong} />
+    </section>
+  );
+};
 
-export default Feed
+export default Feed;

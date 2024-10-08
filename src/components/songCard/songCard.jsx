@@ -1,14 +1,15 @@
-import PlayButton from "./playButton/playButton";
+import React from "react";
 import "./songCard.css";
+import PlayButton from "./playButton/playButton";
 
-const SongCard = ({ songName, artistName, imageUrl }) => {
+const SongCard = ({ songName, artistName, imageUrl, onPlay }) => {
   return (
     <div className="songCard">
-      <img src={imageUrl} className="song-thumbnail__songCard" alt={songName} />
+      <img src={imageUrl} alt={`${songName} cover`} className="song-card__image" />
       <div className="song-details__songCard">
-        <span className="song-name__songCard">{songName}</span>
-        <span className="song-artist__songCard">{artistName}</span>
-        <PlayButton songName={songName}/>
+        <h3 className="song-name__songCard">{songName}</h3>
+        <p className="song-artist__songCard">{artistName}</p>
+        <PlayButton onClick={onPlay} />
       </div>
     </div>
   );

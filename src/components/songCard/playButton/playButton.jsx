@@ -1,18 +1,13 @@
 import React from "react";
-import "./playButton.css"
-import PlayButtonImg from "../../../imgs/tocar.png"
+import "./playButton.css";
+import PlayButtonImg from "../../../imgs/tocar.png";
 
-const PlayButton = ({songName}) => {
+const PlayButton = ({ onClick }) => {
+  return (
+    <button className="playButton" onClick={onClick}>
+      <img src={PlayButtonImg} alt="Play" className="playButton-img" />
+    </button>
+  );
+};
 
-    const handleClick = () => {
-        console.log(songName)
-    }
-
-    return(
-        <button className="playButton" onClick={handleClick}>
-            <img src={PlayButtonImg} alt="Play" className="playButton-img" />
-        </button>
-    )
-}
-
-export default PlayButton
+export default PlayButton;

@@ -7,7 +7,7 @@ const Player = ({ song }) => {
   return (
     <div className="Player">
       <div className="song__details">
-        <img src={song.imageUrl || MeowLogo} alt="MeowsicLogo" className="meowsicLogoPlayer" />
+        <img src={song.imageUrl || MeowLogo} alt="MeowsicLogo" className="meowsicLogoPlayer song-thumbnail__player" />
         <span className="song-name">{song.songName}</span>
         <span className="song-artist-name">{song.artistName}</span>
       </div>

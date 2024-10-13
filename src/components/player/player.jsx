@@ -19,7 +19,7 @@ const Player = ({ song }) => {
         </div>
         <div className="status__bar"></div>
       </div>
-      <div className="ecualizer"></div>
+      {/* <div className="ecualizer"></div> */}
     </div>
   );
 };

@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #Ffffff;
+    background-color: #222222;
 }
 
 .player__container{

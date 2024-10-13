@@ -1,6 +1,6 @@
 import "./header.css";
 import React from "react";
-import meowsic from "../imgs/meowsic.png";
+import meowsic from "../imgs/mewsic.png";
 import Searcher from "../components/searcher/searcher";
 
 const Header = () => {

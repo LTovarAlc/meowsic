@@ -18,7 +18,7 @@
 
 .trend-songs__container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 0px;
     margin-top: 10px;
     width: 90%;

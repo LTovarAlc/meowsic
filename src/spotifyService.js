@@ -32,7 +32,7 @@ export const getTrendingTracks = async (token) => {
   console.log("Response from Spotify:", data); // Verifica el contenido de la respuesta
 
   if (data.items) {
-    return data.items.slice(0, 8); // Retorna las primeras 8 canciones solo si items existe
+    return data.items.slice(0, 10); // Retorna las primeras 10 canciones solo si items existe
   } else {
     console.error("No items found in the response:", data);
     return [];

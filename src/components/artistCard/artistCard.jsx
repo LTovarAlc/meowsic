@@ -1,5 +1,6 @@
 import React from "react";
 import "./artistCard.css";
+import RedirectButton from "../feed/topArtists/redirectButton/redirectButton";
 
 const ArtistCard = ({ artistName, imageUrl, monthlyListeners, onRedirect }) => {
   return (
@@ -8,7 +9,7 @@ const ArtistCard = ({ artistName, imageUrl, monthlyListeners, onRedirect }) => {
       <div className="artist-details__artistCard">
         <h3 className="artist-name__artistCard">{artistName}</h3>
         <p className="artist-listeners__artistCard">{monthlyListeners} Oyentes</p>
-        {/* <RedirectButton onClick={onRedirect} /> */}
+        <RedirectButton onClick={onRedirect} />
       </div>
     </div>
   );

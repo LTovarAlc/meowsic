@@ -29,8 +29,8 @@ const TopArtists = () => {
             key={index}
             artistName={artist.name}
             imageUrl={artist.images[0]?.url}
-            monthlyListeners={artist.followers.total} // Mostrar seguidores como oyentes mensuales
-            onRedirect={() => window.open(artist.external_urls.spotify, "_blank")} // Redirigir al perfil del artista en Spotify
+            monthlyListeners={artist.followers.total}
+            // onRedirect={() => window.open(artist.external_urls.spotify, "_blank")} // Redirigir al perfil del artista en Spotify
           />
         ))}
       </div>

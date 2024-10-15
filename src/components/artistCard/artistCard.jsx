@@ -8,7 +8,9 @@ const ArtistCard = ({ artistName, imageUrl, monthlyListeners, onRedirect }) => {
       <img src={imageUrl} alt={`${artistName} cover`} className="artist-card__image" />
       <div className="artist-details__artistCard">
         <h3 className="artist-name__artistCard">{artistName}</h3>
-        <p className="artist-listeners__artistCard">{monthlyListeners} Oyentes</p>
+        <p className="artist-listeners__artistCard">
+          {monthlyListeners.toLocaleString()} Seguidores {/* Aquí formateamos el número */}
+        </p>
         <RedirectButton onClick={onRedirect} />
       </div>
     </div>

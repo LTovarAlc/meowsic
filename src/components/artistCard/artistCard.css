@@ -24,7 +24,7 @@
 }
 
 .artist-card__image{
-    border-radius: 12px;
+    border-radius: 50%;
     width: 90%;
     max-width: 135px;
     max-height: 135px;

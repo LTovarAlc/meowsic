@@ -59,3 +59,27 @@ export const searchSpotify = async (query, token) => {
   }
 
 }
+
+// get top artist
+export const getTopArtists = async (token) => {
+  // URL top global artist
+  const response = await fetch(
+    "https://api.spotify.com/v1/artists?ids=3TVXtAsR1Inumwj472S9r4,6eUKZXaKkcviH0Ku9w2n3V,66CXWjxzNUsdJxJ2JdwvnR,1uNFoZAHBGtllmzznpCI3s,1Xyo4u8uXC1ZmMpatF05PJ", // IDs de artistas populares como Drake, Ed Sheeran, Ariana Grande, Justin Bieber, The Weeknd
+    {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    }
+  );
+
+  const data = await response.json();
+
+  console.log("Response from Spotify:", data); 
+
+  if (data.artists) {
+    return data.artists.slice(0, 5); // return top 5 artist
+  } else {
+    console.error("No artists found in the response:", data);
+    return [];
+  }
+};

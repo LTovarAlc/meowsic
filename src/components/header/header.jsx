@@ -1,7 +1,7 @@
-import "./header.css";
+import "./header.css"
 import React from "react";
-import meowsic from "../imgs/mewsic.png";
-import Searcher from "../components/searcher/searcher";
+import meowsic from "../../imgs/mewsic.png";
+import Searcher from "../../components/searcher/searcher";
 
 const Header = () => {
   return (

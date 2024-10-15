@@ -1,7 +1,8 @@
 import React from "react";
 import Dashboard from "./components/dashboard/dashboard";
-import Header from "./header/header";
+import "./components/header/header"
 import "./reset.css"
+import Header from "./components/header/header";
 
 function App() {
   return (

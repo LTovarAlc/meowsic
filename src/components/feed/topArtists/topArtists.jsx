@@ -30,7 +30,7 @@ const TopArtists = () => {
             artistName={artist.name}
             imageUrl={artist.images[0]?.url}
             monthlyListeners={artist.followers.total}
-            // onRedirect={() => window.open(artist.external_urls.spotify, "_blank")} // Redirigir al perfil del artista en Spotify
+            // onRedirect={() => window.open(artist.external_urls.spotify, "_blank")} // Redirigir al perfil del artista
           />
         ))}
       </div>

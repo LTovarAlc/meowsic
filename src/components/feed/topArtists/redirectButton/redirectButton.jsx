@@ -1,5 +1,5 @@
 import React from "react";
-import "./redirectButton.css";
+// import "./redirectButton.css";
 import RedirectButtonIMG from "../../../../imgs/redirect.png";
 
 const RedirectButton = ({ onClick }) => {
